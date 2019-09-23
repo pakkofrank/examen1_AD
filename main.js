@@ -14,23 +14,24 @@ function operacion(){
     for (var i = 1; i<= n/2; i++){
         if(n%i==0){
             c += i;
-            //console.log(i);
+            console.log(i);
         }
 
     }
     let a = c;
     let b = 0;
     document.querySelector("#resultado").innerHTML = a;
-    for (var i = 1; i<= a/2; i++){
-        if(a%i==0){
-            b += i;
-            console.log(b);
+    for (var j = 1; j<= a/2; j++){
+        if(a%j==0){
+            b += j;
+            //console.log(b);
+            document.querySelector("#resultado2").innerHTML = b;
         }
 
     }
+    if(a = j || b = i){
 
-    
-
+    }
 
 }
 
